@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(224, 148, 94); 
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.logo {
+  height: 4em; 
+  width: auto;
+  margin-right: 0.5em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  text-align:center;
+}
+
+nav li {
+  display: inline-block;
+  position: relative;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+  display: block;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  padding: 0;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul ul li {
+  display: block;
+}
+
+.recetas-container {
+  margin-bottom: 50px;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  border: 10px solid #ddd;
+  padding: 20px;
+  background-color: #6e2b2b;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-box {
+  margin: 20px;
+  width: 250px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+.menu-box img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.receta {
+  margin-top: 30px;
+  text-align:left;
+}
+
+.receta img {
+  width: 30%;
+  height: auto;
+  margin: 0px;
+}
+.imagen-receta {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+}
+
+.imagen-receta img {
+  width: 100%;
+  height: auto;
+  margin-top: 50px; 
+}
+
+
+.comentarios {
+  margin-top: 50px;
+}
+
+.comentarios-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.comentario {
+  background-color: #6e2b2b;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+.comentario h3 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.comentario p {
+  margin-bottom: 0;
+}
+.mapa-contacto-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contacto-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.contacto-form h3 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.contacto-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacto-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contacto-form input, .contacto-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contacto-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.inner-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inner-btn:hover {
+  background-color: #3e8e41;
+}
